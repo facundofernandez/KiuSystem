@@ -26,3 +26,26 @@
 [imagen1]: ./assets/1.png
 [imagen2]: ./assets/2.png
 
+
+# Indicaciones para probar el código
+
+```javascript
+// Hago un clon del proyecto
+git clone https://github.com/facundofernandez/KiuSystem.git
+
+// Entro a la carpeta del proyecto
+cd KiuSystem
+
+// Instalo dependencias
+npm install
+
+// Inicio servidor web proyecto
+npm run start:dev
+
+// Modo edición de código
+npm run watch
+
+// Modo producción de código
+npm run build
+```
+
