@@ -26,6 +26,12 @@
 [imagen1]: ./assets/1.png
 [imagen2]: ./assets/2.png
 
+# Tecnologias utilizadas
+
+- ReactJS con hooks
+- SASS/CSS - bulma css
+- Webpack
+
 
 # Indicaciones para probar el código
 
