@@ -1,0 +1,30 @@
+@import "../node_modules/bulma/bulma";
+
+.modal{
+    &-foto{
+        &__titulo{
+            background: white;
+            padding: 10px;
+        }   
+    }
+    &-content{
+        padding: 25px;
+    }
+}
+
+.lista{
+    outline: none;
+    &__foto{
+        cursor: pointer;
+        flex-grow:initial;
+        transition: opacity 200ms,transform 50ms;
+        &:hover{
+            opacity: .5;
+            transform: scale(.9)
+        }
+    }
+}
+
+.column{
+    padding: 2px;
+}
